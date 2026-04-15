@@ -1,0 +1,11 @@
+Suggested fields to maintain:
+
+Brand owner:
+Design approver:
+Marketing approver:
+Web/product approver:
+Primary repository maintainer:
+
+Review cadence:
+- monthly for asset hygiene
+- quarterly for structure and archive review

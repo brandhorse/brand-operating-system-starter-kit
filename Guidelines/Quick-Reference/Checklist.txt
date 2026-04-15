@@ -1,0 +1,7 @@
+Quick publishing checklist:
+- file is in the correct folder
+- file name follows convention
+- owner is assigned
+- approval status is clear
+- outdated versions moved to archive
+- public repo contains no licensed or client-sensitive assets

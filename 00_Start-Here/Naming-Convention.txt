@@ -1,0 +1,15 @@
+Recommended naming convention:
+
+brand-area-asset-purpose-version-date.ext
+
+Examples:
+brand-logo-primary-horizontal-v01-20260415.svg
+brand-template-linkedin-carousel-v03-20260415.fig
+brand-photo-team-headshots-v02-20260415.jpg
+
+Guidelines:
+- use lowercase
+- use hyphens instead of spaces
+- keep names short but descriptive
+- increment versions only when meaningfully changed
+- archive old versions when a new approved version is published
