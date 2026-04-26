@@ -1,9 +1,0 @@
-asset_name,category,subcategory,file_path,format,version,status,owner,last_updated,notes
-EXAMPLE-brand-logo-primary-rgb-v2-2026-04,Logo,Primary,Logos/Primary/EXAMPLE-brand-logo-primary-rgb-v2-2026-04.svg,SVG,2.0,approved,jane@example.com,2026-04-17,Primary mark for digital use
-EXAMPLE-brand-logo-primary-cmyk-v2-2026-04,Logo,Primary,Logos/Primary/EXAMPLE-brand-logo-primary-cmyk-v2-2026-04.eps,EPS,2.0,approved,jane@example.com,2026-04-17,Print-ready CMYK version
-EXAMPLE-brand-logo-icon-v2-2026-04,Logo,Icon,Logos/Icon/EXAMPLE-brand-logo-icon-v2-2026-04.svg,SVG,2.0,approved,jane@example.com,2026-04-17,Square icon for app/avatar use
-EXAMPLE-brand-font-headline-inter-v4,Font,Desktop,Fonts/Desktop/EXAMPLE-brand-font-headline-inter-v4.otf,OTF,4.0,approved,jane@example.com,2026-04-17,Licensed — see Licensing-and-Usage
-EXAMPLE-brand-color-swatches-v1,Color,Swatches,Colors/Swatches/EXAMPLE-brand-color-swatches-v1.ase,ASE,1.0,approved,jane@example.com,2026-04-17,Adobe Swatch Exchange for CC apps
-EXAMPLE-brand-social-feed-post-v3,Template,Social-Media,Templates/Social-Media/EXAMPLE-brand-social-feed-post-v3.fig,FIG,3.0,approved,jane@example.com,2026-04-17,Instagram/LinkedIn 1080x1080 template
-EXAMPLE-brand-voice-and-tone-v2,Messaging,Voice-and-Tone,Messaging/Voice-and-Tone/EXAMPLE-brand-voice-and-tone-v2.pdf,PDF,2.0,approved,jane@example.com,2026-04-17,Voice guide — lead with this for copy reviews
-EXAMPLE-brand-guidelines-full-v2,Guidelines,Full-Guide,Guidelines/Full-Guide/EXAMPLE-brand-guidelines-full-v2.pdf,PDF,2.0,approved,jane@example.com,2026-04-17,Complete brand guidelines — update yearly

@@ -1,39 +1,28 @@
 # Contributing
 
-This repo is a template — the goal is to stay useful for a wide range of brands without drifting into over-opinionation. Contributions are welcome under those constraints.
+Issues and pull requests are welcome.
 
-## What good contributions look like
+## Ways to contribute
 
-- **Folder-structure improvements** that apply to most brands (not just yours)
-- **Documentation** — folder READMEs, the main README, USAGE.md, the asset index example
-- **Case studies** of populated forks (added to the "Populated examples" table)
-- **Naming conventions** and workflow recommendations that have proven themselves in real use
-- **Fixes** to typos, broken links, outdated tool references
+- **Suggest a folder-structure improvement** — open an issue with the proposed
+  change and the reasoning. Be specific about what breaks under the current
+  structure that the new structure fixes.
+- **Add documentation** to a folder `README.md` that's thin or unclear.
+- **Submit a populated example** — a public fork of your own brand OS that
+  others can learn from. Open a PR adding it to the README's "Populated
+  examples" section.
+- **Flag a better naming convention** — for files, folders, or workflows.
 
-## What won't be merged
+## What we won't accept
 
-- Brand-specific content (logos, fonts, colors, templates) — that belongs in a fork, not the template
-- Opinionated workflow tools that lock forks into a specific ecosystem (Canva-only, Figma-only, etc.)
-- Commercial/paid product promotion beyond the existing Brandhorse ladder in the README
+- Adding Logos / Fonts / Colors as top-level folders. They live under
+  `09_execution/assets/` for a reason — see the README.
+- Removing `99_archive/`. Archive teaches as much as canon.
+- Generic asset-management features that pull this scaffold toward
+  "brand resource library" framing. This repo is the governance scaffold,
+  not asset management.
 
-## How to contribute
+## License
 
-### For a small change (typo, broken link, clarifying sentence)
-
-Open a PR directly. Include a one-line description in the PR body.
-
-### For a larger change (new folder, restructure, workflow recommendation)
-
-Open an issue first describing the change and why. This saves everyone time if it's not a good fit.
-
-### For a case study / populated fork
-
-Open a PR that adds a row to the "Populated examples" table in the README, with a link to your fork. We'll review and merge if the fork is actually populated and maintained.
-
-## Code of conduct
-
-Be kind. Assume good intent. If someone's fork is less organized than yours, don't dunk on them in issues. This repo is a starting line, not a finish line.
-
-## Maintainer
-
-Maintained by [Brandhorse](https://brandhorse.com). Questions can also reach us via the [Brandhorse website](https://brandhorse.com/contact).
+By contributing, you agree your contributions will be licensed under the same
+MIT license that covers the rest of the repo.

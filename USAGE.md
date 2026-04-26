@@ -1,77 +1,103 @@
-# Usage Guide
+# Setup & Adoption Guide
 
-How to turn this empty scaffold into your brand's live asset library.
+Five steps from empty scaffold to a brand operating system you can actually
+operate. Plan ~30 minutes for a first pass; populating the folders with real
+content is an ongoing exercise.
 
-## 1. Fork or clone
-
-Click **"Use this template"** on the GitHub repo page (recommended — it starts you clean without the full commit history) or fork it. If you're working solo, cloning is fine too.
-
-```bash
-git clone https://github.com/<your-org>/brand-asset-library.git
-cd brand-asset-library
-```
-
-## 2. Start in `00_Start-Here/`
-
-This folder is your documentation layer. Before you upload a single asset, fill in:
-
-- **Brand-Asset-Index.csv** — a row per asset. This becomes the searchable index your team uses when "where's the logo" happens for the hundredth time.
-- **Naming-Convention.txt** — pick a pattern and commit to it. The default (`brand-area-asset-purpose-version-date.ext`) works for most teams.
-- **Contacts-and-Ownership.txt** — who owns brand? Who approves new assets? Who onboards new team members?
-
-Three decisions documented here will save you fifty arguments later.
-
-## 3. Populate the folders
-
-Replace the `.gitkeep` placeholder files with your actual assets. A few notes:
-
-- **Use Git LFS** for anything over ~10 MB (raw Photoshop files, full-resolution photography, InDesign packages). See [Git LFS docs](https://git-lfs.com).
-- **Don't commit licensed fonts** to a public repo. Keep them in `Fonts/Desktop/` for private forks only.
-- **Archive, don't delete.** When a logo gets updated, move the old one to `Logos/Archive/` with a date. Future-you will need it.
-- **One approved version, many drafts.** Keep drafts in `Working-Files/` subfolders. Only promote to the top level when approved.
-
-## 4. Delete what you don't need
-
-Not every brand needs every folder. If you don't have team photography, delete `Photography/Team/`. If you don't send email newsletters, delete `Templates/Email/`. Lean beats comprehensive.
-
-## 5. Document brand ownership
-
-Assign a brand guardian (even if that's you, solo). Their responsibilities:
-
-- Maintain this library
-- Review high-visibility assets for consistency
-- Update templates when the brand evolves
-- Train new team members
-- Answer "where's the logo" questions
-
-Add their name to `00_Start-Here/Contacts-and-Ownership.txt` and commit.
-
-## Maintenance cadence
-
-- **Monthly** — file any new assets created into the right folders. Don't let `Downloads/` become your library.
-- **Quarterly** — audit for outdated assets and archive them. Check that your naming convention is still being followed.
-- **Annually** — review the whole library. Refresh templates. Consider whether the brand itself needs evolution.
-
-## Pulling upstream improvements
-
-We ship updates to the scaffold occasionally. If you used the "Use this template" button, pulling them in is manual — diff against the upstream repo and cherry-pick what you want. If you forked, you can add the upstream as a remote:
+## Step 1 — Fork, clone, or download
 
 ```bash
-git remote add upstream https://github.com/brandhorse/brand-asset-library.git
-git fetch upstream
-git merge upstream/main  # resolve conflicts as needed
+git clone https://github.com/brandhorse/brand-operating-system-starter-kit.git
+mv brand-operating-system-starter-kit my-brand-os
+cd my-brand-os
 ```
 
-## When you need more than structure
+If you'd rather not use Git, download the zip from the [Brandhorse Starter Kit
+page](https://brandhorse.com/resources/brand-operating-system-starter-kit)
+and unzip wherever you want it to live (Drive, Dropbox, local disk, all fine).
 
-This repo is the structural half of brand asset management. The harder half is the *content* — the logos, the templates, the messaging framework, the approval workflow. If you'd rather skip the DIY:
+## Step 2 — Write your charter
 
-- [Visual Identity System ($149)](https://brandhorse.com/products/visual-identity-system) — production-ready templates and workflows
-- [Complete R.A.C.E.S.™ System ($497)](https://brandhorse.com/products/complete-races-system) — full Brandhorse methodology in a Notion ecosystem
-- [Brandhorse OS](https://brandhorse.com/request-access) — governed operating system that turns positioning into structured execution
+Open `00_charter/` first. Don't skip this. The charter is the truth set
+every downstream folder inherits. If you can't write it in a paragraph,
+you don't yet know what you're building.
 
-## Help & feedback
+Three things to fill in:
 
-- Questions → [open an issue](https://github.com/brandhorse/brand-asset-library/issues)
-- Improvements → [open a PR](https://github.com/brandhorse/brand-asset-library/pulls)
-- Share a populated fork → submit a PR adding it to the "Populated examples" table in the README
+- **`truth-set/`** — what you believe is true about your market that
+  competitors don't act like they believe
+- **`decision-rights/`** — who decides what (positioning, messaging,
+  voice, rules), and how decisions get unblocked
+- **`charter/`** — mission, vision, operating principles, brand promise
+
+If a downstream folder ever feels confusing, the answer is usually that the
+charter is incomplete. Come back and tighten it.
+
+## Step 3 — Populate evidence before insights
+
+The most common mistake: writing positioning, messaging, and voice before
+populating evidence. The chain of command runs upward — evidence first,
+patterns from evidence, insights from patterns, articulation from insights.
+
+Drop into `01_evidence/`:
+
+- **Customer quotes** from interviews, calls, support tickets, reviews
+- **Competitive observations** — screenshots, ad library exports, positioning shifts
+- **Market signals** — industry reports, search trends, regulatory moves
+- **Internal proof** — sales calls, retention data, support ticket patterns
+
+A good benchmark: ~30 evidence rows before you start synthesizing patterns.
+Less than that and "patterns" is just confirmation bias.
+
+## Step 4 — Move up the chain
+
+Once `01_evidence/` has real content, work upward folder by folder:
+
+1. `02_patterns-and-insights/` — what recurs across the evidence?
+2. `03_personas-and-profiles/` — who is the brand built for, who isn't it?
+3. `04_positioning-and-messaging/` — category claim, message map, claims library
+4. `05_voice-and-anti-voice/` — how the brand speaks, and what it cannot say
+5. `06_rules-and-guardrails/` — the do/don't list compliance can run against
+6. `07_approved-canon/` — frameworks you've committed to and won't change without a charter-level decision
+
+Don't skip ahead. If you find yourself in `04_positioning-and-messaging/`
+without anything in `02_patterns-and-insights/`, you're guessing.
+
+## Step 5 — Document ownership
+
+Every brand operating system needs a guardian. Someone has to be accountable
+for the file structure staying healthy: the README in every folder being
+current, the rules library not contradicting itself, the canon being
+respected.
+
+Add a `OWNERSHIP.md` to the root with three columns:
+
+| Folder | Owner | Backup |
+| --- | --- | --- |
+| 00_charter | (founder) | (head of brand) |
+| 01_evidence | (research lead) | (founder) |
+| ... | | |
+
+Owners review their folder once a quarter. The backup steps in if the owner
+moves on. This is not optional — without ownership, the system rots.
+
+## What good looks like at 30, 60, 90 days
+
+- **30 days** — Charter written. `01_evidence/` has 30+ rows. `03_personas-and-profiles/` has the ICP defined.
+- **60 days** — Patterns and insights synthesized. Positioning and messaging populated. Voice articulated.
+- **90 days** — Rules library active. Canon documented. Briefs in `08_briefs-and-templates/` generated against the populated chain. First campaign in `09_execution/` shipped from a brief that inherited governance.
+
+## Common mistakes
+
+1. **Putting Logos at the top.** They're in `09_execution/assets/` for a reason. Logos can't be defended without positioning; positioning can't be defended without evidence.
+2. **Skipping anti-voice and anti-personas.** What the brand WON'T do is half the rule.
+3. **Treating canon as "stuff we like."** Canon is what's been **approved**. If it can change without a charter-level decision, it's not canon yet.
+4. **Letting `99_archive/` become a graveyard.** Archive is a teaching tool — what we tried, why we stopped. If you can't say why something was archived, document it before moving it.
+
+## Going further
+
+This scaffold is the file system. Brandhorse OS is the operating system that
+runs on top of a populated scaffold — evidence is wired into patterns, rules
+fire as compliance checks, briefs inherit governance, assets ship with
+audit trails. If you want the wired-up version, request access at
+[brandhorse.com/request-access](https://brandhorse.com/request-access).
