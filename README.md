@@ -100,7 +100,7 @@ This repo is the free, standalone scaffold. It fits inside a three-step ladder:
 
 | Step | What you get | Where |
 | --- | --- | --- |
-| **1. Find your gaps** (free) | A 5-minute brand self-audit that scores you across the chain of command and tells you which folders to fill first. | [brandhorse.com/brand-audit](https://brandhorse.com/brand-audit) |
+| **1. Find your gaps** (free) | A 10-minute brand self-audit that scores you across the chain of command and tells you which folders to fill first. | [brandhorse.com/brand-audit](https://brandhorse.com/brand-audit) |
 | **2. Learn the method** ($79) | The R.A.C.E.S.™ Methodology Workbook — how to actually run the chain of command from evidence to execution. The thinking behind every folder in this scaffold. | [brandhorse.com/products/races-methodology-workbook](https://brandhorse.com/products/races-methodology-workbook) |
 | **3. Run it in the OS** | Brandhorse OS — the scaffold instrumented as a governed operating system. Patterns, rules, briefs, compliance runs, performance loop, all version-controlled with R.A.C.E.S. built in. | [brandhorse.com/os](https://brandhorse.com/os) |
 
