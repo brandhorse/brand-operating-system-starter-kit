@@ -67,10 +67,9 @@ This folder (`09_execution/assets/`) holds the **raw building blocks**: logos, f
 This scaffold is the structural half of brand asset management. The harder half is the *content* — the logos, the rendered guidelines, the approved messaging, the approval workflow. If you'd rather skip the DIY:
 
 - [Brand Self-Audit (free)](https://brandhorse.com/brand-audit) — diagnostic across all five r.a.c.e.s.™ phases
-- [R.A.C.E.S.™ Methodology Workbook ($79)](https://brandhorse.com/products/r-a-c-e-s-methodology-workbook) — the methodology in a single workbook + Notion companion
-- [Brand Mastery Blueprint ($84.99)](https://brandhorse.com/products/brand-mastery-blueprint-bundle) — bundle, available in 3 formats
+- [R.A.C.E.S.™ Methodology Workbook ($79)](https://brandhorse.com/products/races-methodology-workbook) — the methodology in a single workbook + Notion companion
+- [Brand Mastery Blueprint (from $39; $89 complete bundle)](https://brandhorse.com/products/brand-mastery-blueprint-bundle) — the operator's reference, in multiple formats
 - [Brandhorse OS (membership)](https://brandhorse.com/request-access) — the governed operating system, end-to-end
-- Assisted Installation (enterprise) — Brandhorse installs and runs the OS inside your team
 
 ## Help & feedback
 

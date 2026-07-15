@@ -1,24 +1,39 @@
-# Brand Operating System Starter Kit
+# brand operating system starter kit
 
-A starter file system for founders whose brand decisions, evidence, messaging, and assets are scattered across docs, chats, drives, and decks. 12 top-level folders ordered by the chain of command — evidence, patterns, insights, rules, canon — with assets sitting where they belong: downstream.
+a starter file system for founders whose brand decisions, evidence, messaging, and assets are scattered across docs, chats, drives, and decks. 12 top-level folders ordered by the chain of command — evidence, patterns, insights, rules, canon — with assets sitting where they belong: downstream.
 
-The same scaffold we run at Brandhorse, open-sourced. MIT licensed.
+the same scaffold we run at brandhorse, open-sourced. MIT licensed.
 
-## Why this scaffold
+> **new here? open [`00_START_HERE.md`](00_START_HERE.md) first.** it's the short, ordered path from empty scaffold to a grounded foundation — and it will keep you out of the single most common trap: writing your charter before you have the evidence to back it.
 
-Most brand asset libraries start with `Logos / Fonts / Colors / Templates` at the top. That order teaches the wrong thing — it implies that assets are the product of brand work, when they're the downstream artifact of decisions made earlier in the chain.
+## why this scaffold
 
-This scaffold inverts that. The top-level folders mirror the chain of command: evidence → patterns & insights → personas → positioning & messaging → voice → rules → canon → briefs → execution. Logos and fonts are still here — they live under `09_execution/assets/` where they belong: downstream of the decisions that make them defensible.
+most brand asset libraries start with `Logos / Fonts / Colors / Templates` at the top. that order teaches the wrong thing — it implies assets are the product of brand work, when they're the downstream artifact of decisions made earlier in the chain.
 
-## The structure
+this scaffold inverts that. the top-level folders mirror the chain of command: evidence → patterns & insights → personas → positioning & messaging → voice → rules → canon → briefs → execution. logos and fonts are still here — they live under `09_execution/assets/` where they belong: downstream of the decisions that make them defensible.
+
+## authority vs. build order — read this before you start
+
+the folder numbers show **authority** — what inherits from what. `00_charter/` is numbered first because it's the constitutional layer every downstream folder inherits from.
+
+**that is not the order you populate them in.** you build the charter *from evidence* — never author it cold. write a charter before you've done the research and you'll produce a brand nobody can defend the moment it's challenged. so:
+
+```
+authority (what inherits from what):   00 → 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10
+build order (what you populate first): 01 → 02 → 03, then 00 (derived), then 04 → 05 → 06 → 07 → 08 → 09 → 10
+```
+
+**00 is where everything inherits from. 01 is where you start.** the full guided path — audit → research pass → charter pass → ratify — is in [`00_START_HERE.md`](00_START_HERE.md).
+
+## the structure
 
 ```
 brand-operating-system/
-├── 00_charter/                  # The non-negotiables
+├── 00_charter/                  # The non-negotiables — DERIVED from evidence, not authored cold
 │   ├── truth-set/
 │   ├── decision-rights/
 │   └── charter/
-├── 01_evidence/                 # Raw signals — quotes, observations, competitive proof, market data
+├── 01_evidence/                 # ▶ START HERE. Raw signals — quotes, competitive proof, market data
 │   ├── customer-quotes/
 │   ├── competitive/
 │   ├── market-signals/
@@ -68,50 +83,50 @@ brand-operating-system/
     └── old-assets/
 ```
 
-Each top-level folder has a `README.md` explaining what belongs there, why, and how it relates to the rest of the chain. 39 subfolders in total.
+each top-level folder has a `README.md` explaining what belongs there, why, and how it relates to the rest of the chain. 39 subfolders in total.
 
-## Getting started
+## getting started
 
-See **[USAGE.md](https://github.com/brandhorse/brand-operating-system-starter-kit/blob/main/USAGE.md)** for the five-step adoption guide. Short version:
+the guided path is in **[`00_START_HERE.md`](00_START_HERE.md)** (audit → research pass → charter pass → ratify). if you just want to populate the scaffold directly, here's the short version — **in build order**:
 
-1. Fork or clone this repo — create your own copy
-2. Open `00_charter/` — write your truth set, decision rights, and charter
-3. Populate `01_evidence/` — drop in customer quotes, competitive proof, market signals
-4. Work upstream — patterns and insights come from evidence, not the other way
-5. Document ownership — someone needs to be the brand guardian
+1. **fork or clone this repo** — create your own copy. (details in [USAGE.md](https://github.com/brandhorse/brand-operating-system-starter-kit/blob/main/USAGE.md))
+2. **populate `01_evidence/` first** — customer quotes, competitive proof, market signals, and whatever internal proof you have. ~30 rows before you synthesize anything. the [research-pass prompt](01_evidence/README.md) does this for you.
+3. **work up to patterns and personas** — `02_patterns-and-insights/`, then `03_personas-and-profiles/`. what recurs? who's it for?
+4. **derive your charter** — now, with evidence behind you, populate `00_charter/`. the [charter-drafting pass](00_charter/README.md) turns your evidence into draft clauses. ratify it before you build further.
+5. **articulate downstream** — positioning → voice → rules → canon, each inheriting from the ratified charter and citing evidence.
+6. **document ownership** — someone needs to be the brand guardian.
 
-## Who this is for
+## who this is for
 
-- Founders setting up brand operations for the first time
-- Operators tired of "where does this live?" being a daily question
-- Agencies and consultants shipping brand systems as deliverables
-- Brand ops / design ops teams who want a version-controlled source of truth
+- founders setting up brand operations for the first time
+- operators tired of "where does this live?" being a daily question
+- agencies and consultants shipping brand systems as deliverables
+- brand ops / design ops teams who want a version-controlled source of truth
 
-## What's NOT in here (and why)
+## what's NOT in here (and why)
 
-- Licensed fonts — you need distribution rights
-- Client-sensitive or proprietary brand assets — this is structure, not your content
-- Large binaries — use Git LFS for anything over ~10 MB
-- Finished brand strategy docs — this is the file system; the content is yours
+- licensed fonts — you need distribution rights
+- client-sensitive or proprietary brand assets — this is structure, not your content
+- large binaries — use Git LFS for anything over ~10 MB
+- finished brand strategy docs — this is the file system; the content is yours
 
-## When you need more than structure
+## when you need more than structure
 
-This repo is the free, standalone scaffold. It fits inside a three-step ladder:
+this repo is the free, standalone scaffold. it fits inside the brandhorse ladder:
 
-| Step | What you get | Where |
+| step | what you get | where |
 | --- | --- | --- |
-| **1. Find your gaps** (free) | A 10-minute brand self-audit that scores you across the chain of command and tells you which folders to fill first. | [brandhorse.com/brand-audit](https://brandhorse.com/brand-audit) |
-| **2. Learn the method** ($79) | The R.A.C.E.S.™ Methodology Workbook — how to actually run the chain of command from evidence to execution. The thinking behind every folder in this scaffold. | [brandhorse.com/products/races-methodology-workbook](https://brandhorse.com/products/races-methodology-workbook) |
-| **3. Run it in the OS** | Brandhorse OS — the scaffold instrumented as a governed operating system. Patterns, rules, briefs, compliance runs, performance loop, all version-controlled with R.A.C.E.S. built in. | [brandhorse.com/os](https://brandhorse.com/os) |
+| **find your gaps** (free) | a 10-minute brand self-audit that scores you across the chain of command and tells you which folders to fill first. | [brandhorse.com/brand-audit](https://brandhorse.com/brand-audit) |
+| **learn the mindset** (free) | brand mastery essentials — the free eBook that grounds everything below. | [brandhorse.com/brand-mastery-essentials](https://brandhorse.com/brand-mastery-essentials) |
+| **learn the method** ($79) | the r.a.c.e.s.™ methodology workbook — how to actually run the chain of command from evidence to execution. the thinking behind every folder in this scaffold. | [brandhorse.com/products/races-methodology-workbook](https://brandhorse.com/products/races-methodology-workbook) |
+| **run it in the os** | brandhorse os — the scaffold instrumented as a governed operating system. patterns, rules, briefs, compliance runs, performance loop, all version-controlled with r.a.c.e.s. built in. | [brandhorse.com/request-access](https://brandhorse.com/request-access) |
 
-Or run it with us — **[Assisted Installation](https://brandhorse.com/assisted-installation)**.
+## license
 
-## License
+MIT — see **[LICENSE](https://github.com/brandhorse/brand-operating-system-starter-kit/blob/main/LICENSE)**. use it for personal brands, client brands, commercial work, anything. attribution appreciated but not required.
 
-MIT — see **[LICENSE](https://github.com/brandhorse/brand-operating-system-starter-kit/blob/main/LICENSE)**. Use it for personal brands, client brands, commercial work, anything. Attribution appreciated but not required.
+## maintained by
 
-## Maintained by
+**[brandhorse](https://brandhorse.com/)** — we help founders and operators turn brand positioning into a governed, repeatable operating system. this repo is one piece of that system, open-sourced.
 
-**[Brandhorse](https://brandhorse.com/)** — we help founders and operators turn brand positioning into a governed, repeatable operating system. This repo is one piece of that system, open-sourced.
-
-If the scaffold saves you time, give the repo a ⭐ and let us know.
+if the scaffold saves you time, give the repo a ⭐ and let us know.

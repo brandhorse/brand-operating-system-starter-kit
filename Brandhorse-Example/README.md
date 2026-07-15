@@ -33,6 +33,8 @@ Brandhorse-Example/
 
 Read top to bottom (the order they're numbered) to see how each layer inherits from the one above.
 
+> **Reading order ≠ build order.** You *read* a finished system top-down (charter first) to see what inherits from what. You *build* one bottom-up: evidence first, charter **derived** from it, then everything else. This Example is already populated, so top-down reading works — but when you build your own, start at `01_evidence/`, not `00_charter/`. See [`../00_START_HERE.md`](../00_START_HERE.md).
+
 ## What this is *not*
 
 - Not Brandhorse's complete brand operating system — that's hundreds of evidence rows, dozens of patterns, and a live rule library that compliance runs against. This is a representative slice.
