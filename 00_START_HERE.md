@@ -22,7 +22,7 @@ so the order is: **research first, charter second, everything else after.** deci
 
 ## the path (do these in order)
 
-1. **run the [free brand audit](https://brandhorse.com/brand-audit).** ~5 minutes. it scores where your brand stands today and names the gaps to fix first. this is your "you are here."
+1. **run the [free brand audit](https://brandhorse.com/brand-audit).** ~5–10 minutes. it scores where your brand stands today and names the gaps to fix first. this is your "you are here."
 
 2. **read [brand mastery essentials](https://brandhorse.com/brand-mastery-essentials)** (free eBook). the mindset and grounding for everything below. ~16 pages. don't skip to the tools.
 

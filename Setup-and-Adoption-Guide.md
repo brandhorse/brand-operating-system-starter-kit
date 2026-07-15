@@ -110,7 +110,7 @@ the same order is in `USAGE.md` at the repo root. build **upward from evidence**
 
 this scaffold is the file system. when you want the methodology behind it or the running os, brandhorse maintains a ladder:
 
-- **brand self-audit — free.** 10-minute diagnostic scoring your brand across all five r.a.c.e.s.™ phases; tells you which folders to populate first. → brandhorse.com/brand-audit
+- **brand self-audit — free.** 5–10-minute diagnostic scoring your brand across all five r.a.c.e.s.™ phases; tells you which folders to populate first. → brandhorse.com/brand-audit
 - **brand mastery essentials — free.** the eBook that grounds the mindset behind the whole system. → brandhorse.com/brand-mastery-essentials
 - **r.a.c.e.s.™ methodology workbook — $79.** the complete methodology + notion companion. the thinking behind every folder here. → brandhorse.com/products/races-methodology-workbook
 - **brand mastery blueprint — from $39 (eBook) · $89 complete bundle.** the operator's reference for running the chain, in multiple formats. → brandhorse.com/products/brand-mastery-blueprint-bundle

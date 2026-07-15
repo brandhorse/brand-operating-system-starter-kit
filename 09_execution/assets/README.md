@@ -74,7 +74,7 @@ The Brand Operating System Starter Kit (this scaffold) is open-source and free. 
 
 | Tier | What it is |
 |---|---|
-| [Brand Self-Audit](https://brandhorse.com/brand-audit) — *free* | 10-minute diagnostic that scores your brand across all five r.a.c.e.s.™ phases. |
+| [Brand Self-Audit](https://brandhorse.com/brand-audit) — *free* | 5–10-minute diagnostic that scores your brand across all five r.a.c.e.s.™ phases. |
 | [R.A.C.E.S.™ Methodology Workbook](https://brandhorse.com/products/races-methodology-workbook) — *$79* | The complete r.a.c.e.s.™ methodology in a single workbook + Notion companion. |
 | [Brand Mastery Blueprint](https://brandhorse.com/products/brand-mastery-blueprint-bundle) — *from $39; $89 complete bundle* | The operator's reference for running the chain, in multiple formats. |
 | [Brandhorse OS](https://brandhorse.com/request-access) — *membership* | The governed brand operating system. Run r.a.c.e.s.™ end-to-end with traceable evidence and approved canon. |
